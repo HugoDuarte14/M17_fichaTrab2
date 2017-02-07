@@ -4,6 +4,10 @@ public class Ponto2D {
     private int x;
     private int y;
     
+    public Ponto2D(){
+        x=0;
+        y=0;        
+    } 
     // Faltam construtor, getters e setters.
     
     public Ponto2D(int x, int y){
@@ -11,9 +15,30 @@ public class Ponto2D {
         this.y = y;        
     }
     
+    
+    public double getX(double x){           //obtem o valor para x;
+        
+        return x;
+    }
+    
+    public double getY(double y){           //obtem o valor para y;
+        
+        return y;
+    }
+    
     public double distancia(Ponto2D a){
-        // Falta fazer este método.
-        return 0.0;
+                                        
+        return x-y;
+    }
+    
+    public void setX(){                     //devolve o valor do X;
+        
+        
+    }
+    
+    public void setY(){                     //devolve o valor do y;    
+        
+       
     }
     
 }
