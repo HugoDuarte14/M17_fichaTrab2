@@ -6,8 +6,8 @@ package m17b_fichatrab2;
  * @version 2.0
  */
 public class Ponto2D {
-    private int x;                              //atributo x;
-    private int y;                              //atributo y;
+    private int x;                              //coordenada x;
+    private int y;                              //coordenada y;
     
     public Ponto2D(){                           //Construtor não parameterizado;
         x=0;
@@ -23,8 +23,8 @@ public class Ponto2D {
      * @return os dois pontos X e Y;
      */
     @Override
-    public String toString(){                   //Mostra os valores dos pontos x
-        return"X: "+getX()+" Y: "+getY();                 //e y
+    public String toString(){                   //Mostra os valores das 
+        return"X: "+getX()+" Y: "+getY();       //coordenadas xe y
     }
     
    /**
@@ -44,7 +44,7 @@ public class Ponto2D {
     /**
      * 
      * @param a
-     * A função devolve a distância entre os dois pontos;
+     * A função devolve a distância entre as duas coordenadas;
      * @return  
      */
          
