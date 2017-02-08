@@ -18,7 +18,10 @@ public class Ponto2D {
         this.x = x;
         this.y = y;        
     }
-    
+    /**
+     * 
+     * @return os dois pontos X e Y;
+     */
     @Override
     public String toString(){                   //Mostra os valores dos pontos x
         return"X: "+getX()+" Y: "+getY();                 //e y
