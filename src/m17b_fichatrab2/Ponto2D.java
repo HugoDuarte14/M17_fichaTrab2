@@ -51,7 +51,7 @@ public class Ponto2D {
     public double distancia(Ponto2D a){         
         double distancia= 0;                      
         
-        distancia = Math.sqrt(Math.pow((getX()-a.getX()),2) + Math.pow((getY() - a.getY()),2 ));
+        distancia = Math.sqrt(Math.pow((getX()-a.getX()),2) + Math.pow((getY()-a.getY()),2 ));
     
         return distancia;
     }
