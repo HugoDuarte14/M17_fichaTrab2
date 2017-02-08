@@ -38,10 +38,18 @@ public class Ponto2D {
         return y;
     }
     
-    public double distancia(Ponto2D a){         //Função que obtem a distância 
-        double distancia= 0;                    // entre os dois pontos;    
+    /**
+     * 
+     * @param a
+     * A função devolve a distância entre os dois pontos;
+     * @return  
+     */
+         
+    public double distancia(Ponto2D a){         
+        double distancia= 0;                      
         
         distancia = Math.sqrt(Math.pow((getX()-a.getX()),2) + Math.pow((getY() - a.getY()),2 ));
+    
         return distancia;
     }
 
