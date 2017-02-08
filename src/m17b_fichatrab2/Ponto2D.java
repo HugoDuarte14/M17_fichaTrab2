@@ -68,7 +68,4 @@ public class Ponto2D {
         this.y = y;
     }
     
- 
-
-    
 }
